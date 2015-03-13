@@ -18,24 +18,27 @@
 		}
 		.recent {
 			position: absolute;
-			bottom: 0;
-			  width: 25%;
-			  height: 134px;
-			  font: 22px "Helvetica";
-			  color: white;
-			  background: #211858;
+			bottom: 10px;
+			  width: 150px;
+			  height: 150px;
+			  opacity: 0.8;
+			  font: 22px "Arial";
+			  color: #A4B7CA;
+			  background: #fff;
 			  cursor: pointer;
-			  border-radius: 51px;
+			  border-radius: 100%;
 			  text-align: center;
 			  margin-top: 10px;
-			  right: 0px;
+			  right: 10px;
+			  border: 0;
+			  outline: 0;
 		}
 	</style>
 
 	<body>
 
 	<div id="map-canvas"></div>
-	<button class="recent">Zoom to latest location</button>
+	<button class="recent">Tap to see last known location</button>
 	<script data-cfasync="false" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0M0K32VEJ_1fBRdACr58Rr-vAt-dy-bw">

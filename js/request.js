@@ -60,10 +60,25 @@
 		var latitude = position.coords.latitude;
 		var longitude = position.coords.longitude;
 
-		$('#latitude').attr('value',latitude);
-		$('#longitude').attr('value',longitude);
+		
 
-		submitForm();
+			$.get('https://maps.googleapis.com/maps/api/geocode/json?latlng=' + latitude + ',' + longitude + '&key=AIzaSyC0M0K32VEJ_1fBRdACr58Rr-vAt-dy-bw', function (data) {
+				var components = data.results[0].address_components;
+				var address = components[0].long_name + ' ' + components[1].short_name;
+				var neighborhood = data.results[1].formatted_address;
+			
+
+				$('#latitude').attr('value',latitude);
+				$('#longitude').attr('value',longitude);
+				$('#address').attr('value',address);
+				$('#neighborhood').attr('value',neighborhood);
+
+				submitForm();
+			});
+		
+
+
+		
 	};
 
 	$('.tap-here').on('click', function () {

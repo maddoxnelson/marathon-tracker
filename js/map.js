@@ -18,15 +18,19 @@
 					var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
 
 					var most_recent_latLng = undefined;
+					var most_recent_point = undefined;
+					var markers = {};
 
-					var ctaLayer = new google.maps.KmlLayer("http://runrocknroll.competitor.com/maps/kmlbuilder.php?eventid=54&wmid=41&FirstAidStation-1=1&BandStop-2=1&WaterStation-12=1");
+					var ctaLayer = new google.maps.KmlLayer("http://runrocknroll.competitor.com/maps/kmlbuilder.php?eventid=54&wmid=41&FirstAidStation-1=1&WaterStation-12=1");
               		ctaLayer.setMap(map);
 
 					var loadData = function () {
-						var markers = {};
+						
 						
 						
 						$.get(url, function (data){
+
+					
 							
 							
 							
@@ -34,6 +38,7 @@
 
 					 		for (var point in route) {
 					 			
+					 			most_recent_point = point;
 
 					 			// To add the marker to the map, use the 'map' property
 
@@ -42,8 +47,17 @@
 					 				var latitude = route[point].gsx$latitude.$t;
 						 			var longitude = route[point].gsx$longitude.$t;
 						 			var d = new Date(Date.parse(route[point].updated.$t));
+						 			var address = route[point].gsx$address.$t;
+						 			var neighborhood = route[point].gsx$neighborhood.$t;
+						 			var minutes = d.getMinutes().toString();
 
-						 			var timestamp = d.getHours() + ':' + d.getMinutes() + 'a.m.';
+						 			if (minutes.length < 2) {
+						 				minutes = "0" + minutes;
+						 			};
+
+						 			var timestamp = d.getHours() + ':' + minutes + ' a.m.';
+
+
 
 						 			var myLatlng = new google.maps.LatLng(latitude, longitude);
 					 				
@@ -56,8 +70,8 @@
 									most_recent_latLng = myLatlng;
 
 									var infowindow = new google.maps.InfoWindow({
-				      				content: timestamp
-				  				});
+				      					content: timestamp + '<br/>' + address + '<br/>' + neighborhood
+				  					});
 
 								markers[point] = marker;
 
@@ -82,6 +96,8 @@
 							if (most_recent_latLng){
 								map.panTo(most_recent_latLng);
 								map.setZoom(20);
+						
+								new google.maps.event.trigger( markers[most_recent_point], 'click' );
 							}
 						});
 					};
@@ -92,5 +108,13 @@
 			
 
 			init();
+
+			window.addEventListener("load",function() {
+			// Set a timeout...
+			setTimeout(function(){
+				// Hide the address bar!
+				window.scrollTo(0, 1);
+			}, 0);
+});
 			
 		})();

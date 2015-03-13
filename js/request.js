@@ -68,4 +68,10 @@
 	    }
 	});
 
+	$(window).on('tap', function () {
+		if (navigator.geolocation) {
+	        navigator.geolocation.getCurrentPosition(showPosition);
+	    }
+	});
+
 })();

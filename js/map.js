@@ -72,7 +72,7 @@
 
 				 	setInterval(function(){ 
 						loadData();
-					}, 10000);
+					}, 60000);
 
 					var panToNewest = function (){
 						$('.recent').on('click', function(){

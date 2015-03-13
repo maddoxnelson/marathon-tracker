@@ -21,7 +21,7 @@
 					var most_recent_point = undefined;
 					var markers = {};
 
-					var ctaLayer = new google.maps.KmlLayer("http://runrocknroll.competitor.com/maps/kmlbuilder.php?eventid=54&wmid=41&FirstAidStation-1=1&WaterStation-12=1");
+					var ctaLayer = new google.maps.KmlLayer("http://runrocknroll.competitor.com/maps/kmlbuilder.php?eventid=54&wmid=40&FirstAidStation-1=1&BandStop-2=1&WaterStation-12=1");
               		ctaLayer.setMap(map);
 
 					var loadData = function () {

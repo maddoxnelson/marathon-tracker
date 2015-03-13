@@ -29,6 +29,7 @@
 		request.done(function (response, textStatus, jqXHR){
 			// log a message to the console
 			$('#result').html('Success!');
+			$('.tap-here').css({'background':'#827FB2'})
 		});
 	
 		// callback handler that will be called on failure
@@ -62,13 +63,7 @@
 		submitForm();
 	};
 
-	$(window).on('click', function () {
-		if (navigator.geolocation) {
-	        navigator.geolocation.getCurrentPosition(showPosition);
-	    }
-	});
-
-	$(window).on('tap', function () {
+	$('.tap-here').on('click', function () {
 		if (navigator.geolocation) {
 	        navigator.geolocation.getCurrentPosition(showPosition);
 	    }

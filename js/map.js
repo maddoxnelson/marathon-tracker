@@ -1,6 +1,13 @@
 (function(){
 
 			var init = function (){
+
+				var height = $(window).height();
+				var width = $(window).width();
+
+				$('#map-canvas').css({'height':height,'width':width})
+
+
 				 	var url = 'https://spreadsheets.google.com/feeds/list/1sfHTMbXVxMal2wOCxmq6q6aQcko1msUvUnfaiGYBEz8/od6/public/values?alt=json';
 
 					var myLatlng = new google.maps.LatLng(38.889931,-77.009003);
@@ -10,8 +17,11 @@
 					}
 					var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
 
+					var most_recent_latLng = undefined;
+
 					var loadData = function () {
 						var markers = {};
+						
 						
 						$.get(url, function (data){
 							
@@ -40,6 +50,8 @@
 									    map: map
 									});
 
+									most_recent_latLng = myLatlng;
+
 									var infowindow = new google.maps.InfoWindow({
 				      				content: timestamp
 				  				});
@@ -61,6 +73,17 @@
 				 	setInterval(function(){ 
 						loadData();
 					}, 10000);
+
+					var panToNewest = function (){
+						$('.recent').on('click', function(){
+							if (most_recent_latLng){
+								map.panTo(most_recent_latLng);
+								map.setZoom(20);
+							}
+						});
+					};
+
+					panToNewest();
 			};
 
 			

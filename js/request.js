@@ -22,14 +22,17 @@
 		request = $.ajax({
 			url: "https://script.google.com/macros/s/AKfycbzQy7atvhP1_G1ry4M8MFbovv43Fbg4Wt7lLg0-6wqDTfSBFGge/exec",
 			type: "post",
-			data: serializedData
+			data: serializedData,
+			success: function () {
+				$('#result').html('Success!');
+				$('.tap-here').css({'background':'#827FB2'})
+			}
 		});
 	
 		// callback handler that will be called on success
 		request.done(function (response, textStatus, jqXHR){
 			// log a message to the console
-			$('#result').html('Success!');
-			$('.tap-here').css({'background':'#827FB2'})
+			
 		});
 	
 		// callback handler that will be called on failure

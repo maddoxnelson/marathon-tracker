@@ -6,14 +6,35 @@
 	</head>
 
 	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			margin: 0;
+			overflow: hidden;
+		}
 		#map-canvas {
-			height: 1000px;
+			height: 100em;
+		}
+		.recent {
+			position: absolute;
+			bottom: 0;
+			width:100%;
+			height:50px;
+			font: 22px "Helvetica";
+			color:white;
+			background: #211858;
+			cursor: pointer;
+			border-radius: 25px;
+			text-align: center;
+			margin-top: 10px;
 		}
 	</style>
 
 	<body>
 
 	<div id="map-canvas"></div>
+	<button class="recent">Zoom to most recent point</button>
 	<script data-cfasync="false" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0M0K32VEJ_1fBRdACr58Rr-vAt-dy-bw">

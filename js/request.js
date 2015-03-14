@@ -3,6 +3,8 @@
 
 	var request;
 
+	var myVar;
+
 	$("#tracking-form").submit(function(event){
 		// abort any pending request
 		if (request) {
@@ -16,29 +18,30 @@
 		var serializedData = $form.serialize();
 	
 		$inputs.prop("disabled", true);
-		$('#result').text('Sending data...');
 	
 		// fire off the request to /form.php
 		request = $.ajax({
 			url: "https://script.google.com/macros/s/AKfycbzQy7atvhP1_G1ry4M8MFbovv43Fbg4Wt7lLg0-6wqDTfSBFGge/exec",
 			type: "post",
-			data: serializedData,
-			success: function () {
-				$('#result').html('Success!');
-				$('.tap-here').css({'background':'#827FB2'})
-			}
+			data: serializedData
 		});
 	
 		// callback handler that will be called on success
 		request.done(function (response, textStatus, jqXHR){
 			// log a message to the console
-			
+			$('body').css({'background':'#1ABD86'});
+			myVar = setTimeout(function(){ 
+				$('body').css({'background':'#FF5850'});
+			}, 3000);
 		});
 	
 		// callback handler that will be called on failure
 		request.fail(function (jqXHR, textStatus, errorThrown){
 			// log the error to the console
-			$('#result').html('Error!' + textStatus + ' ' + errorThrown);
+			$('body').css({'background':'#FF1A53'});
+				myVar = setTimeout(function(){ 
+				$('body').css({'background':'#FF5850'});
+			}, 3000);
 		});
 	
 		// callback handler that will be called regardless
@@ -82,6 +85,8 @@
 	};
 
 	$('.tap-here').on('click', function () {
+		clearTimeout(myVar);
+		$('body').css('background','#F3D07D')
 		if (navigator.geolocation) {
 	        navigator.geolocation.getCurrentPosition(showPosition);
 	    }

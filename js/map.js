@@ -21,7 +21,7 @@
 					var most_recent_point = undefined;
 					var markers = {};
 
-					var ctaLayer = new google.maps.KmlLayer("http://runrocknroll.competitor.com/maps/kmlbuilder.php?eventid=54&wmid=40&FirstAidStation-1=1&BandStop-2=1&WaterStation-12=1");
+					var ctaLayer = new google.maps.KmlLayer("http://runrocknroll.competitor.com/maps/kmlbuilder.php?eventid=54&wmid=40");
               		ctaLayer.setMap(map);
 
 					var loadData = function () {
@@ -70,14 +70,14 @@
 									most_recent_latLng = myLatlng;
 
 									var infowindow = new google.maps.InfoWindow({
-				      					content: timestamp + '<br/>' + address + '<br/>' + neighborhood
+				      					content: '<p id="hook" class="info-bubble" style="height:200px; width: 250px;">' + timestamp + '<br/>' + address + '<br/>' + neighborhood + '</p>',
+				      					maxWidth: 250
 				  					});
 
 								markers[point] = marker;
 
-					
-
 								google.maps.event.addListener(marker, 'click', function() {
+
 				    				infowindow.open(map,marker);
 				  				});
 								}
@@ -109,12 +109,14 @@
 
 			init();
 
-			window.addEventListener("load",function() {
-			// Set a timeout...
-			setTimeout(function(){
-				// Hide the address bar!
-				window.scrollTo(0, 1);
-			}, 0);
-});
+
+				// Set a timeout...
+				setTimeout(function(){
+					// Hide the address bar!
+					window.scrollTo(0, 1);
+				}, 2000);
+			
+			
+
 			
 		})();

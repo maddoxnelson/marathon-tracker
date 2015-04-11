@@ -21,7 +21,7 @@
 	
 		// fire off the request to /form.php
 		request = $.ajax({
-			url: "https://script.google.com/macros/s/AKfycbzQy7atvhP1_G1ry4M8MFbovv43Fbg4Wt7lLg0-6wqDTfSBFGge/exec",
+			url: "https://script.google.com/macros/s/AKfycbz0gX92GD3wRjS3vhcKl4AnNq4FRo4Q9oDiIQGSVJPPKtkr2nGS/exec",
 			type: "post",
 			data: serializedData
 		});

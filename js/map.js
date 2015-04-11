@@ -8,7 +8,7 @@
 				$('#map-canvas').css({'height':height,'width':width})
 
 
-				 	var url = 'https://spreadsheets.google.com/feeds/list/1sfHTMbXVxMal2wOCxmq6q6aQcko1msUvUnfaiGYBEz8/od6/public/values?alt=json';
+				 	var url = 'https://spreadsheets.google.com/feeds/list/1oxTcCoaOocE7iK0TNperHQ4cYHaCLss4i0-Hh3LFysI/od6/public/values?alt=json';
 
 					var myLatlng = new google.maps.LatLng(38.889931,-77.009003);
 					var mapOptions = {
@@ -21,7 +21,9 @@
 					var most_recent_point = undefined;
 					var markers = {};
 
-					var ctaLayer = new google.maps.KmlLayer("http://runrocknroll.competitor.com/maps/kmlbuilder.php?eventid=54&wmid=40");
+					var ctaLayer = new google.maps.KmlLayer("https://mattwebdev.com/marathon-tracker/routes/cherry_blossom.kml");
+
+					console.log(ctaLayer);
               		ctaLayer.setMap(map);
 
 					var loadData = function () {

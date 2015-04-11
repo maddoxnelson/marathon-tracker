@@ -1,0 +1,11 @@
+{	
+	"objects" :
+		[
+			{
+				"run_title" : "DC Rock 'N Roll Marathon",
+				"date" : "March 14, 2015",
+				"spreadsheet" : "https://spreadsheets.google.com/feeds/list/1sfHTMbXVxMal2wOCxmq6q6aQcko1msUvUnfaiGYBEz8/od6/public/values?alt=json",
+				"base_route" : "http://runrocknroll.competitor.com/maps/kmlbuilder.php?eventid=54&wmid=40"
+			}
+		]
+}

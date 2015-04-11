@@ -1,0 +1,264 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+  <Style id="kmlLineStyle">
+   <LineStyle>
+    <color>
+     7f0000ff
+    </color>
+    <width>
+     4
+    </width>
+   </LineStyle>
+  </Style>
+  <Placemark>
+   <name>
+<![CDATA[Cherry Blossom 10 Miler]]>   </name>
+   <styleUrl>
+    #kmlLineStyle
+   </styleUrl>
+   <LineString>
+    <altitudeMode>
+     clampToGround
+    </altitudeMode>
+    <tessellate>
+     1
+    </tessellate>
+    <coordinates>
+     -77.0336008072,38.8879931076,0 -77.0336008072,38.8862894719,0 -77.0336008072,38.8850534754,0 -77.0336008072,38.8845857955,0 -77.0322275162,38.8836838326,0 -77.0321846008,38.8832829565,0 -77.0325708389,38.8824477907,0 -77.0331716537,38.8817462439,0 -77.0330858231,38.8814455789,0 -77.0320129395,38.8805769838,0 -77.0297813416,38.8791738463,0 -77.0280218124,38.8775702266,0 -77.0256185532,38.8751647293,0 -77.0246315002,38.8740621824,0 -77.0239448547,38.8726589163,0 -77.0231723785,38.8708546762,0 -77.0225286484,38.8691840428,0 -77.0224428177,38.8678475077,0 -77.0222711563,38.866009731,0 -77.0222711563,38.8646397211,0 -77.0222711563,38.8624342838,0 -77.0220994949,38.8608971204,0 -77.0220136642,38.859059164,0 -77.0221424103,38.858591313,0 -77.0226144791,38.8583573863,0 -77.0230007172,38.8584910588,0 -77.0234727859,38.8591928351,0 -77.0250177383,38.8619998714,0 -77.02896595,38.8690503904,0 -77.0306825638,38.8715229186,0 -77.0329999924,38.8742960574,0 -77.0348882675,38.8757661112,0 -77.0369911194,38.8775702266,0 -77.0394802094,38.8791070295,0 -77.0398235321,38.8796081537,0 -77.0396947861,38.8800090505,0 -77.0390939713,38.8800758664,0 -77.0379781723,38.8798086024,0 -77.0367336273,38.8798086024,0 -77.0351028442,38.8800090505,0 -77.034330368,38.8807774298,0 -77.0339870453,38.8814455789,0 -77.0334720612,38.8820469077,0 -77.0328712463,38.8828820782,0 -77.032828331,38.88361702,0 -77.0338582993,38.8843853603,0 -77.0346307755,38.8854209361,0 -77.0349740982,38.8857549896,0 -77.035574913,38.8864899018,0 -77.0371198654,38.886857355,0 -77.0388793945,38.886857355,0 -77.040681839,38.8868239503,0 -77.0423984528,38.8868239503,0 -77.0441579819,38.8867237359,0 -77.0447587967,38.8855879631,0 -77.0451021194,38.8848864472,0 -77.0454883575,38.8841849245,0 -77.0462179184,38.883750645,0 -77.0443296432,38.8821805356,0 -77.0471191406,38.8843185484,0 -77.0491790771,38.8860556364,0 -77.0503377914,38.8865567116,0 -77.051024437,38.8869575692,0 -77.0518398285,38.887692469,0 -77.0525693893,38.888861612,0 -77.0526123047,38.8897301057,0 -77.0523118973,38.8901977518,0 -77.0520973206,38.8908324095,0 -77.05265522,38.8914336588,0 -77.0536422729,38.8916674767,0 -77.0545434952,38.8921017077,0 -77.0548868179,38.892268719,0 -77.0552515984,38.8927697503,0 -77.0558309555,38.8937384009,0 -77.0562601089,38.8947738404,0 -77.0562815666,38.8957758643,0 -77.0563030243,38.8972287738,0 -77.056453228,38.8961766699,0 -77.0564746857,38.8950243477,0 -77.0563030243,38.894139218,0 -77.0558738708,38.893404385,0 -77.05514431,38.8923522244,0 -77.0546293259,38.8915338666,0 -77.0540928841,38.8909493195,0 -77.0532560349,38.8903981706,0 -77.05265522,38.8901142438,0 -77.0520973206,38.8899138242,0 -77.0515394211,38.889529685,0 -77.0514965057,38.8891956493,0 -77.0515179634,38.8889785252,0 -77.0517110825,38.8887781024,0 -77.0520758629,38.888594381,0 -77.0539426804,38.8880098097,0 -77.0558094978,38.8872749132,0 -77.0572900772,38.8867738431,0 -77.0588135719,38.8862727694,0 -77.0593929291,38.886072339,0 -77.0597577095,38.8861558517,0 -77.0600581169,38.8861892568,0 -77.0602941513,38.8860890415,0 -77.0604872704,38.8859053132,0 -77.0604872704,38.8857048817,0 -77.060508728,38.8855044496,0 -77.060315609,38.8853374225,0 -77.0600366592,38.8852706115,0 -77.0597147942,38.8852706115,0 -77.0594573021,38.8854543415,0 -77.0593500137,38.8857048817,0 -77.0591783524,38.8859053132,0 -77.0587921143,38.886072339,0 -77.0581698418,38.8862727694,0 -77.0567107201,38.8868239503,0 -77.052397728,38.888377255,0 -77.0514965057,38.888577679,0 -77.0507454872,38.8884106591,0 -77.0502948761,38.8881601285,0 -77.0501875877,38.8872582109,0 -77.0441579819,38.8870410809,0 -77.0432782173,38.8870410809,0 -77.0426344872,38.8870911879,0 -77.041862011,38.8873417223,0 -77.0407891273,38.8877759798,0 -77.0401668549,38.8879430012,0 -77.0394158363,38.8880098097,0 -77.0385789871,38.887909597,0 -77.0380210876,38.887792682,0 -77.0375704765,38.8877759798,0 -77.0367765427,38.8877258733,0 -77.0355534554,38.8875922558,0 -77.0348453522,38.8876256602,0 -77.0337080956,38.8878928948,0 -77.0334506035,38.8884774671,0 
+    </coordinates>
+   </LineString>
+  </Placemark>
+  <Style id="Mile_1">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=1]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_1
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -77.0256185532,38.8751647293,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 1
+   </name>
+  </Placemark>
+  <Style id="Mile_2">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=2]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_2
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -77.0220994949,38.8608971204,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 2
+   </name>
+  </Placemark>
+  <Style id="Mile_3">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=3]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_3
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -77.02896595,38.8690503904,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 3
+   </name>
+  </Placemark>
+  <Style id="Mile_4">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=4]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_4
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -77.0390939713,38.8800758664,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 4
+   </name>
+  </Placemark>
+  <Style id="Mile_5">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=5]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_5
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -77.040681839,38.8868239503,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 5
+   </name>
+  </Placemark>
+  <Style id="Mile_6">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=6]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_6
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -77.0503377914,38.8865567116,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 6
+   </name>
+  </Placemark>
+  <Style id="Mile_7">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=7]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_7
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -77.0564746857,38.8950243477,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 7
+   </name>
+  </Placemark>
+  <Style id="Mile_8">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=8]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_8
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -77.0597577095,38.8861558517,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 8
+   </name>
+  </Placemark>
+  <Style id="Mile_9">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=9]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_9
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -77.0441579819,38.8870410809,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 9
+   </name>
+  </Placemark>
+  <Style id="start_marker">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://static.mapmyfitness.com/d/mapping_api/stable/img/markers/start.png]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #start_marker
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -77.0336008072,38.8879931076,0
+    </coordinates>
+   </Point>
+   <name>
+    Cherry Blossom 10 Miler
+   </name>
+  </Placemark>
+  <Style id="finish_marker">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://static.mapmyfitness.com/d/mapping_api/stable/img/markers/stop.png]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #finish_marker
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -77.0334506035,38.8884774671,0
+    </coordinates>
+   </Point>
+   <name>
+    Cherry Blossom 10 Miler
+   </name>
+  </Placemark>
+ </Document>
+</kml>

@@ -21,7 +21,7 @@
 	
 		// fire off the request to /form.php
 		request = $.ajax({
-			url: "https://script.google.com/macros/s/AKfycbz0gX92GD3wRjS3vhcKl4AnNq4FRo4Q9oDiIQGSVJPPKtkr2nGS/exec",
+			url: "https://script.google.com/macros/s/AKfycbxJXg9VL8fwzxDSSrHrFycri2-HRPF9LGGN6hUDSGZUtmKAHGI/exec",
 			type: "post",
 			data: serializedData
 		});
@@ -70,7 +70,7 @@
 				var address = components[0].long_name + ' ' + components[1].short_name;
 				var neighborhood = data.results[1].formatted_address;
 			
-
+console.log(data)
 				$('#latitude').attr('value',latitude);
 				$('#longitude').attr('value',longitude);
 				$('#address').attr('value',address);

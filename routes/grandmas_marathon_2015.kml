@@ -1,0 +1,537 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+  <Style id="kmlLineStyle">
+   <LineStyle>
+    <color>
+     7f0000ff
+    </color>
+    <width>
+     4
+    </width>
+   </LineStyle>
+  </Style>
+  <Placemark>
+   <name>
+<![CDATA[Grandmas Marathon]]>   </name>
+   <styleUrl>
+    #kmlLineStyle
+   </styleUrl>
+   <LineString>
+    <altitudeMode>
+     clampToGround
+    </altitudeMode>
+    <tessellate>
+     1
+    </tessellate>
+    <coordinates>
+     -91.7125368118,47.0063921185,0 -91.7255401611,46.9964704665,0 -91.7354106903,46.9888596913,0 -91.743478775,46.9814235028,0 -91.7474269867,46.9776171794,0 -91.7486286163,46.9768558821,0 -91.7501735687,46.9758603233,0 -91.7569541931,46.972346438,0 -91.7575550079,46.9716436332,0 -91.7585849762,46.9704722714,0 -91.761674881,46.9639707472,0 -91.7628765106,46.9626234856,0 -91.7642498016,46.9614519263,0 -91.7736053467,46.9555058672,0 -91.7823600769,46.9493247802,0 -91.78647995,46.945926343,0 -91.7890548706,46.9440805496,0 -91.7905139923,46.943465271,0 -91.7915010452,46.9432601766,0 -91.7920589447,46.9431722787,0 -91.7925310135,46.9429964826,0 -91.7930030823,46.9420881933,0 -91.7931318283,46.9414142913,0 -91.7936038971,46.9409161843,0 -91.7960500717,46.9399492576,0 -91.798324585,46.9388065036,0 -91.8031311035,46.936608831,0 -91.8113708496,46.9312461315,0 -91.8127441406,46.9302204174,0 -91.8137311935,46.9298101263,0 -91.815533638,46.9291946837,0 -91.8172931671,46.9291653767,0 -91.820640564,46.9292532976,0 -91.8305969238,46.9292239906,0 -91.8316698074,46.9291360697,0 -91.833987236,46.928696463,0 -91.8400382996,46.9273483134,0 -91.8446731567,46.9261466732,0 -91.8470335007,46.9255604975,0 -91.8488359451,46.9250329338,0 -91.8499946594,46.9244174364,0 -91.850810051,46.9238019318,0 -91.8516254425,46.9230398687,0 -91.8519687653,46.9221898625,0 -91.8522262573,46.9214570877,0 -91.8522262573,46.9192587032,0 -91.8528270721,46.9179103161,0 -91.8543291092,46.915623843,0 -91.8556594849,46.9143339946,0 -91.8569040298,46.9135717968,0 -91.858921051,46.9126043764,0 -91.8616247177,46.9107867514,0 -91.8646717072,46.9098192807,0 -91.8677186966,46.9090570188,0 -91.8717956543,46.9087638382,0 -91.8754863739,46.9082654276,0 -91.8787908554,46.9073858681,0 -91.8800783157,46.9069754021,0 -91.8881893158,46.9031637817,0 -91.8892192841,46.902665319,0 -91.8901634216,46.9018443115,0 -91.8916654587,46.9003781955,0 -91.8942832947,46.8987360979,0 -91.8957424164,46.897856382,0 -91.8966436386,46.89709395,0 -91.8975019455,46.8962728572,0 -91.8990468979,46.8955104026,0 -91.9043254852,46.8923724947,0 -91.906170845,46.8910234311,0 -91.907544136,46.8899382901,0 -91.9105052948,46.8870640268,0 -91.9124794006,46.8850988806,0 -91.9137239456,46.8841896095,0 -91.9151830673,46.8834269831,0 -91.9192171097,46.8815790358,0 -91.9211053848,46.8811390389,0 -91.9224786758,46.8806403715,0 -91.9243240356,46.8805523709,0 -91.9252252579,46.8803177019,0 -91.9262552261,46.8797603588,0 -91.933722496,46.8755360971,0 -91.9346666336,46.8746560007,0 -91.9354391098,46.8741279359,0 -91.9364690781,46.8737758898,0 -91.9382715225,46.8734825164,0 -91.9398593903,46.8730131154,0 -91.9409751892,46.8724556965,0 -91.9432497025,46.8709007605,0 -91.946554184,46.8696685151,0 -91.949300766,46.8687296425,0 -91.9524335861,46.867409325,0 -91.9581413269,46.8634188349,0 -91.9598150253,46.8624211661,0 -91.9620466232,46.8610713493,0 -91.9639778137,46.8597801884,0 -91.9661664963,46.858254231,0 -91.967754364,46.857491236,0 -91.9698143005,46.8568162698,0 -91.9726896286,46.8560826014,0 -91.9753074646,46.8553782702,0 -91.9761657715,46.8549380586,0 -91.9775390625,46.8539695802,0 -91.9789552689,46.8532065243,0 -91.9853496552,46.8500661419,0 -91.9907999039,46.8464852948,0 -91.9955205917,46.8432564576,0 -91.9961214066,46.8422877685,0 -91.99655056,46.8419648683,0 -91.9971513748,46.841906159,0 -91.9993829727,46.8400567819,0 -92.0000696182,46.8391761038,0 -92.0014429092,46.8383541246,0 -92.0031166077,46.8376495609,0 -92.0060777664,46.8366220557,0 -92.0080947876,46.8366220557,0 -92.0109272003,46.8358587534,0 -92.0143175125,46.8348605725,0 -92.0161628723,46.8343027574,0 -92.0187807083,46.8336274999,0 -92.0208835602,46.8325705579,0 -92.0262479782,46.8293115229,0 -92.0296382904,46.8263459228,0 -92.0313549042,46.8250245632,0 -92.0369768143,46.8223230158,0 -92.0433282852,46.8221174577,0 -92.0447015762,46.8213833153,0 -92.0485639572,46.8185934827,0 -92.0558166504,46.8129840127,0 -92.0616102219,46.8085782595,0 -92.066116333,46.8061696286,0 -92.0806646347,46.7984730361,0 -92.0821666718,46.7992662473,0 -92.0880031586,46.7948593705,0 -92.0981740952,46.7869554676,0 -92.1042251587,46.7821361617,0 -92.102637291,46.7810782075,0 -92.1016931534,46.7807549396,0 -92.1005344391,46.7801671748,0 -92.0992898941,46.7791679598,0 -92.0966720581,46.781195759,0 -92.0982170105,46.7837230539,0 -92.0969724655,46.7848397279,0 -92.0962429047,46.7856625254,0 -92.0953416824,46.7857506816,0 -92.0946550369,46.7850748142,0 -92.0948696136,46.7843989383,0 -92.0938396454,46.7823124853,0 
+    </coordinates>
+   </LineString>
+  </Placemark>
+  <Style id="Mile_2">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=2]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_2
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -91.7354106903,46.9888596913,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 2
+   </name>
+  </Placemark>
+  <Style id="Mile_3">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=3]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_3
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -91.7486286163,46.9768558821,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 3
+   </name>
+  </Placemark>
+  <Style id="Mile_4">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=4]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_4
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -91.761674881,46.9639707472,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 4
+   </name>
+  </Placemark>
+  <Style id="Mile_5">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=5]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_5
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -91.7823600769,46.9493247802,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 5
+   </name>
+  </Placemark>
+  <Style id="Mile_6">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=6]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_6
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -91.798324585,46.9388065036,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 6
+   </name>
+  </Placemark>
+  <Style id="Mile_7">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=7]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_7
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -91.815533638,46.9291946837,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 7
+   </name>
+  </Placemark>
+  <Style id="Mile_9">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=9]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_9
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -91.8400382996,46.9273483134,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 9
+   </name>
+  </Placemark>
+  <Style id="Mile_10">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=10]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_10
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -91.8528270721,46.9179103161,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 10
+   </name>
+  </Placemark>
+  <Style id="Mile_11">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=11]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_11
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -91.8717956543,46.9087638382,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 11
+   </name>
+  </Placemark>
+  <Style id="Mile_12">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=12]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_12
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -91.8901634216,46.9018443115,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 12
+   </name>
+  </Placemark>
+  <Style id="Mile_13">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=13]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_13
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -91.906170845,46.8910234311,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 13
+   </name>
+  </Placemark>
+  <Style id="Mile_14">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=14]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_14
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -91.9211053848,46.8811390389,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 14
+   </name>
+  </Placemark>
+  <Style id="Mile_15">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=15]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_15
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -91.9398593903,46.8730131154,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 15
+   </name>
+  </Placemark>
+  <Style id="Mile_16">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=16]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_16
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -91.9581413269,46.8634188349,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 16
+   </name>
+  </Placemark>
+  <Style id="Mile_17">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=17]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_17
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -91.9761657715,46.8549380586,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 17
+   </name>
+  </Placemark>
+  <Style id="Mile_18">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=18]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_18
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -91.9955205917,46.8432564576,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 18
+   </name>
+  </Placemark>
+  <Style id="Mile_19">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=19]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_19
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -92.0143175125,46.8348605725,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 19
+   </name>
+  </Placemark>
+  <Style id="Mile_20">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=20]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_20
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -92.0313549042,46.8250245632,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 20
+   </name>
+  </Placemark>
+  <Style id="Mile_22">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=22]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_22
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -92.0558166504,46.8129840127,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 22
+   </name>
+  </Placemark>
+  <Style id="Mile_23">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=23]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_23
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -92.0806646347,46.7984730361,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 23
+   </name>
+  </Placemark>
+  <Style id="Mile_25">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=25]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_25
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -92.0981740952,46.7869554676,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 25
+   </name>
+  </Placemark>
+  <Style id="Mile_26">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://api.mapmyfitness.com/vx/map_marker_image/0/?format=png&txt=26]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #Mile_26
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -92.0982170105,46.7837230539,0
+    </coordinates>
+   </Point>
+   <name>
+    Mile 26
+   </name>
+  </Placemark>
+  <Style id="start_marker">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://static.mapmyfitness.com/d/mapping_api/stable/img/markers/start.png]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #start_marker
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -91.7125368118,47.0063921185,0
+    </coordinates>
+   </Point>
+   <name>
+    Grandmas Marathon
+   </name>
+  </Placemark>
+  <Style id="finish_marker">
+   <IconStyle>
+    <Icon>
+     <href>
+<![CDATA[http://static.mapmyfitness.com/d/mapping_api/stable/img/markers/stop.png]]>     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <styleUrl>
+    #finish_marker
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -92.0938396454,46.7823124853,0
+    </coordinates>
+   </Point>
+   <name>
+    Grandmas Marathon
+   </name>
+  </Placemark>
+ </Document>
+</kml>

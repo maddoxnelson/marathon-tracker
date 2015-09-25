@@ -8,11 +8,14 @@
 				$('#map-canvas').css({'height':height,'width':width})
 
 
-				 	var url = 'https://spreadsheets.google.com/feeds/list/1oRaKu0zVIOiHarh0kLT0VRVE326CUGkW3X_KzCVdG6g/od6/public/values?alt=json';
+				 	var url = 'https://spreadsheets.google.com/feeds/list/17xaKeLEX1qLhteOFY-ZnOmZJNjrA3Oo1pER-lZWbVSs/od6/public/values?alt=json';
 
-					var myLatlng = new google.maps.LatLng(38.889931,-77.009003);
+				 	var route_center_lat ='47.98718',
+            			route_center_lng = '-91.96715';
+
+					var myLatlng = new google.maps.LatLng(route_center_lat,route_center_lng);
 					var mapOptions = {
-					  zoom: 13,
+					  zoom: 11,
 					  center: myLatlng
 					}
 					var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
@@ -21,7 +24,7 @@
 					var most_recent_point = undefined;
 					var markers = {};
 
-					var ctaLayer = new google.maps.KmlLayer("https://mattwebdev.com/marathon-tracker/routes/grandmas_marathon_2015.kml");
+					var ctaLayer = new google.maps.KmlLayer("https://mattwebdev.com/marathon-tracker/routes/ely-marathon.kml");
 
 					console.log(ctaLayer);
               		ctaLayer.setMap(map);
